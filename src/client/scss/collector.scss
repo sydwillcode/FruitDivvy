@@ -1,0 +1,39 @@
+#collect {
+    background-color: rgb(4, 102, 141);
+    min-height: 91vh;
+    z-index: 0;
+    position: absolute;
+}
+
+#collect-2 {
+    top: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#how-1 {
+    color: rgb(252, 146, 34);
+    font-family: 'Voltaire';
+}
+
+#info-text-2 {
+    color: white;
+    font-family: 'Voltaire';
+    font-size: larger;
+}
+
+#footer-collect {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;            /* Footer height */
+  background-image: url("/assets/navbar-bg.png"); 
+  background-size: cover;
+}
+
+@media screen and (max-width:375px) {
+    #collect-2 {
+        top: 1.5rem;
+    }
+
+}

@@ -1,0 +1,110 @@
+#what-1 {
+    color: rgb(252, 146, 34);
+    font-family: 'Voltaire';
+}
+
+#info-text {
+    color: white;
+    font-family: 'Voltaire';
+    font-size: larger;
+}
+
+#provide {
+    background-color: rgb(4, 102, 141);
+    min-height: 91vh;
+    z-index: 0;
+    position: absolute;
+}
+
+#provide-2 {
+    top: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#footer-provide {
+//   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;            /* Footer height */
+  background-image: url("/assets/navbar-bg.png"); 
+  background-size: cover;
+  position: relative;
+}
+.card-title {
+    font: 900;
+    font-family: 'Voltaire', sans-serif;
+    color: rgb(253, 68, 114);
+    font-size: xx-large;
+    align-content: center;
+    justify-content: center;
+}
+
+.signUpCard {
+    max-width: 100%;
+    width: 35em;
+    background-color: rgb(230,230,230);
+    box-shadow: -2px 4px 20px 0px rgba(51,43,51,1);
+}
+
+.form-control {
+    width: 25em;
+}
+
+.formText {
+    font-family: 'Voltaire', sans-serif;
+    color: rgb(3, 101, 140);
+    font-size: large;
+}
+
+.detailText{
+    font-family: 'Voltaire', sans-serif;
+    color: rgb(3, 101, 140);
+    font-size: large;
+}
+
+.avatar-pic{
+    height: 10em;
+    width: 10em;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.signUpRule{
+    height: .25em;
+    width: 100%;
+    background-color: rgb(3, 101, 140);
+    border-radius: 1em;
+}
+
+.detailRule {
+    height: .25em;
+    width: 25em;
+    background-color: rgb(3, 101, 140);
+    border-radius: 1em;
+}
+.customBtn {
+    height: auto;
+    width: auto;
+    padding: 1% ;
+    background-color: rgb(255, 147, 30);
+    border-radius: .25em;
+    border-style: none;
+    font-family: 'Voltaire', sans-serif;
+    font-size: x-large;
+    color: rgb(3, 101, 140);
+}
+
+.fruitItemList{
+    width: auto;
+    height: auto;
+    padding: 1%;
+    color: white;
+    background-color: #03658c;
+    border-radius: .25em;
+    font-family: 'Voltaire', sans-serif;
+    display: inline-block;
+    font-size: x-large;
+}

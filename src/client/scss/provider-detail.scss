@@ -1,0 +1,52 @@
+.detailRule {
+    height: .25em;
+    width: 75%;
+    background-color: rgb(3, 101, 140);
+    border-radius: 1em;
+}
+
+.card-title {
+    font: 900;
+    font-family: 'Voltaire', sans-serif;
+    color: rgb(253, 68, 114);
+    font-size: xx-large;
+    align-content: center;
+    justify-content: center;
+}
+
+.detailCard {
+    margin-left: 2em;
+    width: 20em;
+    background-color: rgb(230,230,230);
+    align-content: center;
+    justify-content: center;
+}
+
+.fruitItem{
+    width: fit-content;
+    padding: 3%;
+    padding-bottom: 4%;
+    height: auto;
+    color: white;
+    background-color: rgb(3, 101, 140);
+    border-radius: .5em;
+    display: inline-block
+}
+
+.linkText {
+    font-family: 'Voltaire', sans-serif;
+    font-size: large;
+    color:  rgb(3, 101, 140);;
+}
+
+.detail-logo {
+    height: 6em;
+    width: auto;
+}
+
+h6 {
+    font-family: 'Voltaire', sans-serif;
+    color:  rgb(151, 0, 80);
+    font-size: large !important;
+    margin-top: .5em !important;
+}

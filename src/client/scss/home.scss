@@ -1,0 +1,215 @@
+.homebg {
+  width: 100%;
+}
+
+.homepage {
+  background-image: url("/assets/fruit-share-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 61vh;
+}
+
+#carouselExampleIndicators {
+  height: 15vh;  
+  background-color: white;
+  
+}
+.carousel-control-next-icon {
+  background-image: url("/assets/next-icon.svg") !important;
+  height: 41px !important;
+  width: 41px !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("/assets/prev-icon.svg") !important;
+  height: 41px !important;
+  width: 41px !important;
+}
+
+
+
+
+.carousel-info {
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(151, 30, 98);
+    font-family: 'Voltaire';
+    margin-left: 25em;
+    margin-right: 25em;
+    // width: 36rem;
+    // margin-left: 31rem;
+}
+
+.caro-title {
+  // text-align: center;
+  font-family: 'Voltaire', sans-serif;
+  color: rgb(250, 66, 108);
+  font-size: 3.4em;
+  
+  
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.btn-group {
+  font-family: 'Voltaire';
+  top: -3em;
+  left: 2.2em;
+  position: relative;
+
+}
+
+.custom-btn-home {
+  height: auto;
+  width: fit-content;
+  padding: 3%;
+  background-color: rgb(255, 147, 30);
+  border-radius: .25em;
+  border-style: none;
+  font-family: 'Voltaire', sans-serif;
+  font-size: x-large;
+  color: rgb(3, 101, 140); 
+}
+
+.btn-spacing:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow: 0px 4px 2px 1px rgba(0,0,0,0.75);
+}
+
+#footer-main {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;            /* Footer height */
+  background-image: url("/assets/navbar-bg.png"); 
+  background-size: cover;
+}
+
+
+
+//Screen change at 375px**
+@media screen and (max-width: 385px) {
+  .home {
+    height: 11.8em !important;
+    width: auto !important;
+    position: relative;
+    top: 3em;
+    left: -2em;
+  }
+
+  .caro-title {
+    font-size: 3em;
+  }
+
+  
+  
+  #get-food{
+    margin-left: 6em !important;
+  }
+
+  .custom-btn-home {
+    height: 3em;
+    width: auto;
+    font-size: 13px !important;
+    line-height: 1em !important;
+    border-radius: 25% !important;
+  }
+
+  #login-btn {
+    margin-right: 3em !important;
+
+  }
+
+  #carouselExampleIndicators {
+    height: 50vh;
+  }
+  .homepage {
+    height: 60vh;
+    width: fit-content;
+    background-image: url('/assets/fruit-share-02.jpg') !important;
+    // transform: rotate(90deg);
+  }
+
+  .btn-group {
+    font-family: 'Voltaire';
+    top: 1.3em;
+    left: -2.8em;
+  }
+
+  .carousel-info {
+    font-size: 1em;
+    margin-left: 2.8em !important;
+    margin-right: 2.8em !important;
+  }
+
+}
+
+@media screen and (min-width: 799px) {
+  #carouselExampleIndicators {
+    height: 50%;
+  }
+  .homepage {
+    height: 50%;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  #carouselExampleIndicators {
+    height: 40%;
+  }
+  .homepage {
+    height: 60%;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #carouselExampleIndicators {
+    height: 25vh;
+  }
+
+  .home {
+    height: 32.8em !important;
+    width: auto !important;
+    position: relative;
+    top: 0em;
+    left: -2em;
+  }
+  
+
+  .homepage {
+    height: 57vh;
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) {
+    .homepage {
+        background-image: url('/assets/fruit-share-01.jpg');
+        background-size: cover;
+        height:61vh;
+        width: 100%;
+      
+    }
+}
+
+@media (orientation: portrait) {
+    .homepage {
+        background-image: url('/assets/fruit-share-01.jpg');
+        background-size: cover;
+        
+        // height:80%;
+        width: 100%;
+      
+    }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';

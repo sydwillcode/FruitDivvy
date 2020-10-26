@@ -1,0 +1,15 @@
+$theme-colors: (
+    'primary': #0091ea //Covalence Blue!  :D
+);
+
+#root {
+    height: 100vh;
+    overflow-x: hidden; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@700&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import './navbar.scss';
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
